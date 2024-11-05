@@ -1,0 +1,14 @@
+import { Cat } from './cat.js';
+import { Dog } from './dog.js';
+import { Cow } from './cow.js';
+import { Human } from './human.js';
+const cat1 = new Cat("Orange", true, false);
+const cat2 = new Cat("Black and White", false, false);
+const dog1 = new Dog("Gold", true, true);
+const cow1 = new Cow("Brown", true, false);
+const human1 = new Human("Brown", true, true, "John", 30, "Software Engineer");
+cat1.speak();
+cat2.speak();
+dog1.speak(); 
+cow1.speak(); 
+human1.introduce();
